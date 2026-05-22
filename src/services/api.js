@@ -2,7 +2,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://analyzer-backend-two.vercel.app/',
+  baseURL: import.meta.env.VITE_API_URL || 'https://analyzer-backend-two.vercel.app/api',
 });
 
 // Request Interceptor
